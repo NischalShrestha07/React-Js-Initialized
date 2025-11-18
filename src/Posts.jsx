@@ -1,7 +1,9 @@
+import "./App.css";
+
 function Posts() {
   return (
     <>
-      <h1>I am being called from Posts.jsx</h1>
+      <h1 className="bgRed">I am being called from Posts.jsx</h1>
     </>
   );
 }

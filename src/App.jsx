@@ -5,6 +5,9 @@ import Posts from "./Posts";
 import Props from "./Props";
 
 import Button from "./Button";
+import UseState from "./UseState";
+import Test from "./Test";
+import FunctionTest from "./Functions/FunctionTest";
 function App() {
   const $name = "Narayan";
   return (
@@ -15,6 +18,11 @@ function App() {
       <Posts />
       <Button />
       <Props name="Narayan Shrestha" />
+      <UseState />
+      <Test />
+      <br />
+
+      <FunctionTest />
     </>
   );
 }
