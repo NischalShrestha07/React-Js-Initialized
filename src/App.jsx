@@ -8,6 +8,7 @@ import Button from "./Button";
 import UseState from "./UseState";
 import Test from "./Test";
 import FunctionTest from "./Functions/FunctionTest";
+import Haha from "./Haha";
 function App() {
   const $name = "Narayan";
   return (
@@ -23,6 +24,7 @@ function App() {
       <br />
 
       <FunctionTest />
+      <Haha />
     </>
   );
 }
