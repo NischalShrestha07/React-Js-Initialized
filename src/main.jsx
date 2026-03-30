@@ -9,6 +9,7 @@ import Hello from "./Hello.jsx";
 import HelloTest from "./HelloTest.jsx";
 import HelloArray from "./HelloArray.jsx";
 import ArrayApp from "./ArrayApp.jsx";
+import IfTest from "./IfTest.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")).render(
     {/* <HamroApp /> */}
     {/* <Hello /> */}
     {/* <HelloTest /> */}
-    <ArrayApp />
+    {/* <ArrayApp /> */}
+    <IfTest />
   </StrictMode>,
 );

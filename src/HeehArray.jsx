@@ -9,11 +9,11 @@ function HeehArray() {
       <h1>User Details</h1>
       <h3>Full Name:{fullName(user)}</h3>
       <h4>Age:{user.age}</h4>
-      <ul>
+      {/* <ul>
         {user.map((user.firstName,user.secondName,user.age) => (
         <li> { user.firstName } - {user.secondName} - {user.age}</li>
       ))}
-      </ul>
+      </ul> */}
     </>
   );
 }
