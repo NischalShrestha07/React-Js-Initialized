@@ -6,12 +6,14 @@ import Tata from "./Tata.jsx";
 import HamroApp from "./HamroApp.jsx";
 import Haha from "./Haha.jsx";
 import Hello from "./Hello.jsx";
+import HelloTest from "./HelloTest.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <App />
     <Haha /> */}
     {/* <HamroApp /> */}
-    <Hello />
+    {/* <Hello /> */}
+    <HelloTest />
   </StrictMode>,
 );
