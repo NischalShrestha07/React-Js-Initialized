@@ -19,8 +19,21 @@ function HelloTest() {
 
     console.log("Value:", event.target.value);
   };
+
+  const handleDoubleClick = () => {
+    // return " Btn was double clicked";
+    console.log("Btn was double clicked");
+  };
+
+  const handleMouseOver = () => {
+    // return " Mouse is over the text";
+    console.log("Mouse is over the text");
+  };
   return (
     <>
+      <p onDoubleClick={handleDoubleClick} onMouseOver={handleMouseOver}>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
+      </p>
       <h1>hello whats up brother {getName(name)}</h1>
       <h1>Great yo see you {getName(name1)}</h1>
       <button onClick={handleClick}>Click Me Yo</button>{" "}
