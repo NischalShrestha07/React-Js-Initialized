@@ -3,7 +3,8 @@ import Tata from "./Tata";
 function HamroApp() {
   return (
     <>
-      <Tata />
+      {/* <Tata /> */}
+      <h1> HamroApp Component </h1>{" "}
     </>
   );
 }
