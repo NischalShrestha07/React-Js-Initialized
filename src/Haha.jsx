@@ -1,3 +1,5 @@
+import HamroApp from "./HamroApp";
+
 function Haha() {
   const name = "narayan";
   const headingStyle = {
@@ -20,8 +22,10 @@ function Haha() {
       <span style={{ background: "red", fontSize: "100px", color: "white" }}>
         {name}
       </span>
+      <h1>React JS Course Starts from here</h1>
     </h2>
   );
+  <HamroApp />;
 }
 
 export default Haha;

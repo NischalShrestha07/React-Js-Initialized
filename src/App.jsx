@@ -9,22 +9,25 @@ import UseState from "./UseState";
 import Test from "./Test";
 import FunctionTest from "./Functions/FunctionTest";
 import Haha from "./Haha";
+import Tata from "./Tata";
 function App() {
+  const $element = <h1>Hhahshasah</h1>;
   const $name = "Narayan";
   return (
     <>
       <h1>haha how are you {$name}</h1>
       <img src={reactLogo} alt="" />
-
+      {/* <h3>{$element}</h3> */}
+      {$element}
       <Posts />
       <Button />
       <Props name="Narayan Shrestha" />
       <UseState />
       <Test />
       <br />
-
       <FunctionTest />
       <Haha />
+      <Tata />
     </>
   );
 }
