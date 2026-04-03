@@ -5,7 +5,14 @@ const App = () => {
     <div>
       <form className="flex item-center">
         <input type="text" placeholder="Enter notes heading" name="" id="" />
-        <textarea name="" placeholder="Enter Details" id=""></textarea>
+        <br />
+        <input
+          style={{ marginTop: 10 }}
+          type="text"
+          placeholder="Enter Details"
+        />
+        <br />
+        <button style={{ padding: 12, marginTop: 12 }}>Add Note</button>
       </form>
     </div>
   );
