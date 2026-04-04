@@ -15,4 +15,5 @@ while True:
             print("No tasks available.")
         else:
             for i,task in enumerate(tasks):
-                
+                status="Done" if task["done"] else "Not Done"
+                print(f"{i+1}. {task['title']}")
