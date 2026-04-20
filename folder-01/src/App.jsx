@@ -47,6 +47,8 @@ function App() {
 
   const [text, setText] = useState("");
 
+  const [items, setItems] = useState([]);
+
   return (
     <>
       <h1>Panel</h1>
@@ -93,6 +95,12 @@ function App() {
       />
 
       <h2>YOu typed:{text}</h2>
+
+      <button onClick={() => setItems([...items, "New Item"])}>Add Item</button>
+
+      {items.map((item, index) => (
+        <p key={index}>{item}</p>
+      ))}
     </>
   );
 }
