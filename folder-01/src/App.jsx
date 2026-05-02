@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Button from "./Button";
 import Button2 from "./Button2";
+import Input from "./Input";
 
 // const App = () => {
 //   function clickButton() {
@@ -101,6 +102,13 @@ function App() {
       {items.map((item, index) => (
         <p key={index}>{item}</p>
       ))}
+
+      {/* <Input /> */}
+      <input
+        type="text"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
     </>
   );
 }
