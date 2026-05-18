@@ -17,6 +17,7 @@
   "homepage": "https://github.com/NischalShrestha07/11-15-2025#readme",
   "description": "",
   "dependencies": {
+    "ejs": "^5.0.2",
     "express": "^5.2.1"
   }
 }
