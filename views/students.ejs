@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <h1>Students Page</h1>
+
+    <a href="/">Home</a>
+    <a href="/students">Students</a>
+    <a href="/add-student">Add Student</a>
+
+    <hr>
+
+    <% students.forEach((student)=> { %>
+
+        <div class="card">
+
+            <h2>
+                <%= student.name %>
+            </h2>
+
+            <p>Age: <%= student.age %>
+            </p>
+
+            <p>Course: <%= student.course %>
+            </p>
+
+        </div>
+
+        <% }) %>
+
+</body>
+
+</html>
