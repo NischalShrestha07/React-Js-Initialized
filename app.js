@@ -1,7 +1,7 @@
 const { name } = require('ejs')
 const express = require('express')
 const app = express()
-
+require("./model/index")
 
 
 // app.get('/', (req, res) => {
@@ -113,7 +113,7 @@ app.listen(3000, () => {
 })
 
 
-users.create({
-    email: "mausam@gmail.com",
-    password: "password"
-})//
+// users.create({
+//     email: "mausam@gmail.com",
+//     password: "password"
+// })//
