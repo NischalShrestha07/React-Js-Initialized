@@ -17,6 +17,7 @@
   "homepage": "https://github.com/NischalShrestha07/11-15-2025#readme",
   "description": "",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "ejs": "^5.0.2",
     "express": "^5.2.1",
     "mysql2": "^3.22.3",

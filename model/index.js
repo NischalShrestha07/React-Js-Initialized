@@ -48,11 +48,14 @@
 
 
 const { Sequelize, DataTypes } = require('sequelize')
+const databaseConfig = require('../config/dbConfig')
 
-
-const sequelize = new Sequelize('expressdb', 'root', '', {
-    host: 'localhost',
-    dialect: 'mysql'
+//this below is also correct 
+// const sequelize = new Sequelize('expressdb', 'root', '', {
+//but for better approach use below pattern as store the credentials inside the seperate file instead.
+const sequelize = new Sequelize(databaseConfig.db, databaseConfig.username, databaseConfig.password, {
+    host: databaseConfig.host,
+    dialect: databaseConfig.dialect
 
 })
 

@@ -4,6 +4,8 @@ const app = express()
 require("./model/index")
 
 
+require('dotenv').config()// to access the .env file on othe files
+
 // app.get('/', (req, res) => {
 //     res.send("<h1>Hellow heheh</h1>")
 
