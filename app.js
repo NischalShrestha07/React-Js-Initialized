@@ -1,3 +1,4 @@
+const { name } = require('ejs')
 const express = require('express')
 const app = express()
 
@@ -110,3 +111,9 @@ app.listen(3000, () => {
     console.log('Serverr running on port 3000');
 
 })
+
+
+users.create({
+    email: "mausam@gmail.com",
+    password: "password"
+})//
